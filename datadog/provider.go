@@ -50,6 +50,7 @@ func Provider() terraform.ResourceProvider {
 			"datadog_synthetics_test":                      resourceDatadogSyntheticsTest(),
 			"datadog_timeboard":                            resourceDatadogTimeboard(),
 			"datadog_user":                                 resourceDatadogUser(),
+			"datadog_event":                                resourceDatadogEvent(),
 		},
 
 		DataSourcesMap: map[string]*schema.Resource{
