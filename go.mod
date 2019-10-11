@@ -8,3 +8,5 @@ require (
 	github.com/kr/pretty v0.1.0
 	github.com/zorkian/go-datadog-api v2.24.0+incompatible
 )
+
+go 1.13
